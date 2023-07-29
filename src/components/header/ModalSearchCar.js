@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 const ModalSearchCar = ({id,name,title,price,img,closeModal}) => {
   return (
     <div className="flex flex-row gap-x-2 relative items-stretch border-y-2">
-      <div className="flex flex-col w-2/4 sm:w-1/3 md:w-1/3 lg:w-1/4 justify-center0">
+      <div className="flex flex-col w-1/3 min-[500px]:w-1/3 sm:w-1/3 md:w-1/3 lg:w-1/4 justify-center0">
         <img src={img} alt="" className=" w-full h-full" />
       </div>
 

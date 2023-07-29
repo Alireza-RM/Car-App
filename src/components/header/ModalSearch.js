@@ -1,4 +1,5 @@
 import ModalSearchCar from "./ModalSearchCar";
+import ModalLikeChildCar from "./ModalLikeChildCar";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 
@@ -17,7 +18,7 @@ const ModalSearch = ({closeModal}) => {
     }
 
   return (
-    <div className="w-[95%] sm:w-[75%] h-[80vh] gap-y-4 mx-auto bg-white absolute top-20 z-40 p-2 flex flex-col">
+    <div className="w-[95%] sm:w-[75%] h-[80vh] gap-y-4 mx-auto bg-white absolute top-20 z-40 p-6 flex flex-col">
       <div className="flex items-center gap-x-1">
         <div className=" w-8 h-full flex items-center justify-center ">
           <svg className="w-6 h-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
