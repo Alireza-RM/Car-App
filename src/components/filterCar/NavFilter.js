@@ -121,7 +121,7 @@ const NavFilter = () => {
 
                 </div>
 
-                <div className="flex flex-col">
+                <div className="flex flex-col mb-20">
                     <span className="text-slate-400 text-xs">P R I C E</span>
 
                     <span className="flex flex-col  items-center gap-x-2 w-full py-1 mt-4">

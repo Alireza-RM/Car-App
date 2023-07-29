@@ -1,5 +1,4 @@
 import ModalSearchCar from "./ModalSearchCar";
-import ModalLikeChildCar from "./ModalLikeChildCar";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 
