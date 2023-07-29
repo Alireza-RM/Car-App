@@ -10,20 +10,19 @@ import UserPanel from "./components/UserPanel";
 import HomePage from "./components/HomePage";
 import NotFound from "./components/NotFound";
 
-
 const App = () => {
   return (
     <div className="bg-gray-100">
       <Header />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/userpanel" element={<UserPanel />} />
-          <Route path="/filtercar" element={<FilterCar />} />
-          <Route path="/rentalcar/:id" element={<RentalCar />} />
-          <Route path="/detailescar/:id?" element={<DetailesCar />} />
-          <Route path="/notfound" element={<NotFound />} />
-          <Route path="/*" element={<Navigate to="/notfound" />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/userpanel" element={<UserPanel />} />
+        <Route path="/filtercar" element={<FilterCar />} />
+        <Route path="/rentalcar/:id" element={<RentalCar />} />
+        <Route path="/detailescar/:id?" element={<DetailesCar />} />
+        <Route path="/notfound" element={<NotFound />} />
+        <Route path="/*" element={<Navigate to="/notfound" />} />
+      </Routes>
       <Footer />
     </div>
   );
