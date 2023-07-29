@@ -12,7 +12,7 @@ const BoxRightTop = ({name,img}) => {
 
     <div className="flex flex-row gap-x-2 items-center mb-6">
 
-        <div className="md:w-2/5 lg:w-2/4 bg-right-bg rounded-xl ">
+        <div className="py-4 md:w-2/5 lg:w-2/4 bg-right-bg rounded-xl bg-yellow-400">
             <img src={img} alt="" className="h-full w-full"/>
         </div>
 
