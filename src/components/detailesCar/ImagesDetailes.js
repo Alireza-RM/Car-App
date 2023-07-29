@@ -26,7 +26,7 @@ const ImagesDetailes = ({name,img}) => {
 
                     <div className="flex flex-row w-full gap-x-4 justify-between sm:gap-x-12 md:gap-x-3">
                         <div className="w-full rounded-2xl bg-right-bg">
-                            <img src={img} alt="" className="w-full h-28 rounded-2xl  md:h-20 lg:h-24"/>
+                            <img src={img} alt="" className="w-full object-scale-down h-28 rounded-2xl  md:h-20 lg:h-24"/>
                         </div>
                         <div className="w-full rounded-2xl ">
                             <img src={image28} alt="" className="w-full h-28 rounded-2xl  md:h-20 lg:h-24 "/>
